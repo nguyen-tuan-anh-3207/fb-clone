@@ -1,0 +1,174 @@
+/* story */
+
+.story {
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 120px;
+  height: 200px;
+  box-shadow: 0px 5px 17px -7px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  margin-right: 10px;
+  transition: transform 100ms ease-in;
+  cursor: pointer;
+}
+
+.story:hover {
+  transform: scale(1.07);
+}
+
+.story__avatar {
+  margin: 10px;
+  border: 4px solid #2e81f4;
+}
+
+.story > h4 {
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  color: #fff;
+}
+
+/* storyReel */
+
+.storyReel {
+  display: flex;
+}
+
+/* feed */
+.feed {
+  flex: 1;
+  padding: 30px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* message sender */
+
+.messageSender {
+  display: flex;
+  margin-top: 30px;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+  width: 100%;
+}
+
+.messageSender__top {
+  display: flex;
+  border-bottom: 1px solid #eff2f5;
+  padding: 15px;
+}
+
+.messageSender__top > form {
+  flex: 1;
+  display: flex;
+}
+
+.messageSender__top > form > input {
+  outline-width: 0;
+  border: none;
+  padding: 5px 20px;
+  margin: 0 10px;
+  border-radius: 999px;
+  background-color: #eff2f5;
+}
+.messageSender__top > form > button {
+  display: none;
+}
+
+.messageSender__input {
+  flex: 1;
+}
+
+.messageSender__bottom {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.messageSender__option {
+  display: flex;
+  padding: 10px 20px;
+  align-items: center;
+  color: gray;
+  margin: 5px;
+}
+
+.messageSender__option > h3 {
+  font-size: medium;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.messageSender__option:hover {
+  background-color: #eff2f5;
+  border-radius: 20px;
+}
+
+/* post */
+
+.post {
+  width: 100%;
+  margin-top: 15px;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+}
+
+.post__avatar {
+  margin-right: 10px;
+}
+
+.post__top {
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding: 15px;
+}
+
+.post__topInfo > h3 {
+  font-size: medium;
+}
+
+.post__topInfo > p {
+  font-size: small;
+  color: gray;
+}
+
+.post__image > img {
+  width: 100%;
+}
+
+.post__bottom {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 15px 25px;
+}
+
+.post__options {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px;
+  border-top: 1px solid lightgray;
+  padding: 10px;
+  font-size: medium;
+  color: gray;
+  cursor: pointer;
+}
+
+.post__option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  flex: 1;
+}
+
+.post__option:hover {
+  background-color: #eff2f5;
+  border-radius: 10px;
+}
