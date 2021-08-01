@@ -1,7 +1,6 @@
 import { Avatar } from '@material-ui/core'
 import { InsertEmoticon, PhotoLibrary, Videocam } from '@material-ui/icons'
 import React, { useState } from 'react'
-import './Feed.css'
 
 const MessageSender = () => {
   const [input, setInput] = useState('')

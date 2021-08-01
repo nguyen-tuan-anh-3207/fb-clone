@@ -1,6 +1,5 @@
 import { Avatar } from '@material-ui/core'
 import React from 'react'
-import './Feed.css'
 
 const Story = ({ image, profileSrc, title }) => {
   return (

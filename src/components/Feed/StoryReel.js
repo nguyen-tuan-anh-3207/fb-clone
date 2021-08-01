@@ -1,5 +1,4 @@
 import React from 'react'
-import './Feed.css'
 import Story from './Story'
 
 const storyReels = [

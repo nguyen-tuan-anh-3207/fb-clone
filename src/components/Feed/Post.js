@@ -7,7 +7,6 @@ import {
   ThumbUp
 } from '@material-ui/icons'
 import React from 'react'
-import './Feed.css'
 
 const Post = ({ profilePic, image, username, timestamp, message }) => {
   return (

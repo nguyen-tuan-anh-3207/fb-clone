@@ -11,8 +11,6 @@ import ForumIcon from '@material-ui/icons/Forum'
 import NotificationsActiveIcon from '@material-ui/icons/NotificationsActive'
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
 
-import './Header.css'
-
 const Header = () => {
   return (
     <div className='header'>

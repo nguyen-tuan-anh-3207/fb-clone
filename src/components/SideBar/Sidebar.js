@@ -7,7 +7,6 @@ import {
   LocalHospital
 } from '@material-ui/icons'
 import React from 'react'
-import './Sidebar.css'
 import SidebarRow from './SidebarRow'
 
 const sidebars = [
