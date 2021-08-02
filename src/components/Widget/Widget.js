@@ -1,5 +1,4 @@
 import React from 'react'
-import './Widget.css'
 
 const Widget = () => {
   return (
