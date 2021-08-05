@@ -1,0 +1,66 @@
+.chat {
+  width: 18%;
+  padding: 10px 5px 0px 5px;
+  height: 90vh;
+  overflow-y: scroll;
+
+  &__top {
+    color: #606770;
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+
+    &--icons {
+      display: flex;
+    }
+
+    &--option > .MuiSvgIcon-root {
+      font-size: 1.8rem;
+      margin-left: 5px;
+      padding: 0px 5px 0px 5px;
+      border-radius: 999px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #cdcfd1;
+      }
+    }
+
+    &--list {
+      margin-top: 5px;
+    }
+  }
+}
+
+.user-list {
+  display: flex;
+  align-items: center;
+  padding: 5px 0px 5px 0px;
+  border-radius: 10px;
+  cursor: pointer;
+
+  & > p {
+    font-weight: 500;
+  }
+
+  &:hover {
+    background-color: #cdcfd1;
+  }
+
+  &__avatar {
+    display: flex;
+    position: relative;
+  }
+
+  &__online {
+    width: 9px;
+    height: 9px;
+    background-color: rgb(63, 167, 63);
+    border: 1px solid white;
+    position: absolute;
+    border-radius: 999px;
+    right: 0px;
+    bottom: 0px;
+  }
+}
