@@ -63,4 +63,17 @@
     right: 0px;
     bottom: 0px;
   }
+
+  &__message {
+    flex: 1;
+  }
+
+  &__action {
+    & > .MuiSvgIcon-root {
+      font-size: small;
+    }
+    &--icon {
+      color: gray;
+    }
+  }
 }

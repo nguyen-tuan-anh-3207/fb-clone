@@ -1,7 +1,8 @@
 import React from 'react'
 import { Avatar } from '@material-ui/core'
+import { CheckCircle } from '@material-ui/icons'
 
-const User = () => {
+const User = ({ message, action }) => {
   return (
     <div className='user-list'>
       <div>
@@ -13,7 +14,15 @@ const User = () => {
           <div className='user-list__online'></div>
         </div>
       </div>
-      <p className='ml-10'>name</p>
+      <div className='user-list__message'>
+        <p className='ml-10 '>name</p>
+        {message ? <p className='ml-10 opac-80'>{message}</p> : null}
+      </div>
+      {action ? (
+        <div className='user-list__action'>
+          <CheckCircle className='user-list__action--icon' />
+        </div>
+      ) : null}
     </div>
   )
 }

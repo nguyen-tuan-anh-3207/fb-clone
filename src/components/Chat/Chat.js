@@ -4,7 +4,7 @@ import { VideoCall, Search, MoreHoriz, More } from '@material-ui/icons'
 
 const Chat = () => {
   return (
-    <div className='chat'>
+    <div className='chat scroll'>
       <div className='chat__top'>
         <div className='ml-5'>
           <h4>Users</h4>
@@ -22,11 +22,6 @@ const Chat = () => {
         </div>
       </div>
       <div className='chat__top--list'>
-        <User />
-        <User />
-        <User />
-        <User />
-        <User />
         <User />
         <User />
         <User />
